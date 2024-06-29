@@ -6,10 +6,10 @@ inputs:
     required: true
     default: "Barsoom"
   
-  outputs:
-    greeting:
-      description: "How we greeted you"
+outputs:
+  greeting:
+    description: "How we greeted you"
 
-  runs: 
-    using: "node20"
-    main: "index.js"
+runs: 
+  using: "node20"
+  main: "index.js"
